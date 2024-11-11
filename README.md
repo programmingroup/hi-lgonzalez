@@ -13,12 +13,14 @@ https://hi-lgonzalez-production.up.railway.app/Luis
 Visit the repository on Docker Hub [here](https://hub.docker.com/repository/docker/programmingroup/hi-name/tags)
 
 ## Deployment Docker image 🐳
-
+#### 1. Check if port 8080 is free
+#### 2. Run these two commands in your terminal 
 ```bash
   > docker pull programmingroup/hi-name:latest
 
   > docker run -d -p 8080:8080 programmingroup/wiki-go:latest
 ```
+#### 3. Connecting to http://localhost:8080 using your browser
 
 ## Live Demo
 Experience the project in action by visiting the live demo [here](https://hi-lgonzalez-production.up.railway.app/)!
